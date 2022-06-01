@@ -1,25 +1,44 @@
+@font-face {
+  font-family: norse-font;
+  src: url(./Norse-Bold.otf);
+}
+
 body {
   height: 100vh;
   overflow: hidden;
   display: flex;
   margin: 0;
-  border: 4px solid blue;
 }
 
+/* Image section styling */
 .image-section {
+  position: relative;
   background-image: url("../images/green-leaf.avif");
   width: 40%;
 }
 
-.content-section {
-  background-color: rgb(183, 209, 233);
-  width: 60%;
-}
-
 .logo-body {
+  position: absolute;
+  top: 25%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.6);
   color: rgba(255, 255, 255, 1);
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-family: norse-font;
+  padding: 16px;
+  padding-bottom: 3px;
+  box-sizing: border-box;
 }
+
+.logo-img {
+  width: 20%;
+}
+
+img {
+  width: 100%;
+}
+
+/* Content section styling */
