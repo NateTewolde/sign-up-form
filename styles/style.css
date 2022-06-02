@@ -90,6 +90,14 @@ input {
   border-radius: 3px;
 }
 
+.error {
+  border-color: rgb(231, 175, 171);
+}
+
+.error:valid {
+  border-color: green;
+}
+
 input:focus {
   outline: none;
   border-color: rgb(137, 161, 230);
