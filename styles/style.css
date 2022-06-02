@@ -11,10 +11,16 @@ body {
   margin: 0;
 }
 
+.green-leaf {
+  position: absolute;
+  height: auto;
+  width: auto;
+  z-index: -1;
+}
+
 /* Image section styling */
 .image-section {
   position: relative;
-  background-image: url("../images/green-leaf.avif");
   width: 40%;
 }
 
@@ -75,6 +81,7 @@ img {
 .form-section {
   font-family: Roboto;
   padding: 32px;
+  background-color: white;
   color: rgb(85, 92, 101);
 }
 
