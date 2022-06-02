@@ -42,3 +42,7 @@ img {
 }
 
 /* Content section styling */
+
+.form-field {
+  display: inline-block;
+}
