@@ -26,8 +26,52 @@
         </p>
         <p>You <em>know</em> you want to.</p>
       </div>
-      <div class="form-section"></div>
-      <div class="signup-section"></div>
+      <div class="form-section">
+        <form action="" method="post" id="signup_form">
+          <div class="form-field">
+            <label for="first_name">FIRST NAME</label>
+            <br />
+            <input type="text" name="first_name" id="first_name" />
+          </div>
+          <div class="form-field">
+            <label for="last_name">LAST NAME</label>
+            <br />
+            <input type="text" name="last_name" id="last_name" />
+          </div>
+          <br />
+          <div class="form-field">
+            <label for="email">EMAIL</label>
+            <br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-field">
+            <label for="phone_number">PHONE NUMBER</label>
+            <br />
+            <input type="tel" name="phone_number" id="phone_number" />
+          </div>
+          <br />
+          <div class="form-field">
+            <label for="user_password">PASSWORD</label>
+            <br />
+            <input type="password" name="user_password" id="user_password" />
+            <br />
+          </div>
+          <div class="form-field">
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <br />
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="signup-section">
+        <button type="submit" form="signup_form">Create Account</button>
+        <p>Already have an account? <a href="./index.html">Log in</a></p>
+      </div>
     </div>
   </body>
 </html>
